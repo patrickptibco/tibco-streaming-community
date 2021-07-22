@@ -1,7 +1,7 @@
 
 # LiveViewTM Plane Tracker Sample
 
-This sample decodes airplane information using SDR (Software Defined Radio) and third party software called dump1090. It parses airplane data into tuples and publishes to LiveViewTM Server using a StreamBase® eventflow application. You can use LiveViewTM Web on localhost:10080 in a web browser to see plane data in your area to be displayed on a live map. You can also view additional details for each plane using a customized LiveViewTM Web card to show airplanes's manufacturing and ownership information if any.
+This sample decodes airplane information using SDR (Software Defined Radio) and third party software called dump1090. It parses airplane data into tuples and publishes to LiveViewTM Server using a StreamBase® eventflow application. You can use LiveViewTM Web on localhost:11080 in a web browser to see plane data in your area to be displayed on a live map. You can also view additional details for each plane using a customized LiveViewTM Web card to show airplanes's manufacturing and ownership information if any.
 
 # Prerequisites
 
@@ -27,7 +27,7 @@ This sample decodes airplane information using SDR (Software Defined Radio) and 
 	
 * After you can see data showing in the terminal window, from StreamBase Studio right click on PlaneTracker and choose run as LiveViewTM Fragment.
 	
-* Once the sample has successfully loaded, run LiveView Web by typing localhost:10080 into a browser. Look for plane data publishing to LiveView server and also planes moving on the embedded GeoMap.
+* Once the sample has successfully loaded, run LiveView Web by typing localhost:11080 into a browser. Look for plane data publishing to LiveView server and also planes moving on the embedded GeoMap.
 
 	![liveview web dashboard](images/planetracker2.png)
 

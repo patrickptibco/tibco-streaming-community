@@ -24,7 +24,7 @@
 <!--
     This URI has to point to the LiveViewServer that you wish to publish the logger output. -->
 
-        <LVURI>lv://lvadmin:lvadmin@localhost:10080</LVURI>
+        <LVURI>lv://lvadmin:lvadmin@localhost:11080</LVURI>
 	
      <AppenderName>LiveViewTSTableProvider</AppenderName>
      <LVPublisherName>LiveViewTSTableProvider</LVPublisherName>

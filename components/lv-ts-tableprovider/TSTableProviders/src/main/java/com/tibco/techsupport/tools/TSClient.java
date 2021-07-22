@@ -77,7 +77,7 @@ public class TSClient {
 	
 	public static void main(String[] args) {
 
-		String LVURL="lv://localhost:10080";
+		String LVURL="lv://localhost:11080";
 		String command=null;
 		if (args.length == 0) {
 			help();
